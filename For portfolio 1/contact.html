@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio's contact section </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="./picture/Logo 5.png">
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__brand">
+                <a href="index.html" class="link">
+                    <img src="./picture/Logo 5.png" alt="Rasm yuklanmadi">
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item">
+                        <a href="./index.html">Asosiy</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#about-me">Men haqimda</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#"> Xizmatlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Hamkorlar</a>
+                    </li>
+                    <li class="main-navigation__item active">
+                        <a href="./contact.html">Bog'lanish</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /header secrion -->
+
+    <!-- Form section -->
+    <div class="container">
+        <section class="contact">
+            <div class="section-title contact-title">
+                Men bilan bog'laning
+            </div>
+            <form action="/server.php" method="get">
+                <textarea rows="10" placeholder="Xabaringizni kiriting" name="message"></textarea>
+                <div class="half-flex">
+                    <div class="contact__first-name">
+                        <input type="text" placeholder="Ismingizni kiriting" name="first-name">
+                    </div>
+                    <div class="contact__email">
+                        <input type="email" placeholder="Emailingizni kiriting" name="email">
+                    </div>
+                </div>
+                <input type="text" placeholder="Xat mazmuni" name="subject">
+                <button class="button contact-send" type="submit">Xabar yuborish</button>
+            </form>
+        </section>
+    </div>
+    <!-- Form section -->
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                <img src="./picture/Logo 5.png" alt="My logo">
+            </div>
+            <nav class="footer__navigation">
+                <ul class="footer__navigation-items">
+                    <li class="footer__navigation-item">
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#"> Xizmatlar</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Hamkorlar</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer__socials">
+                <li class="footer__social">
+                    <a href="https://t.me/THOMAS_THOMSON">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="https://www.instagram.com/doston.anvarovich?igsh=MWE3NW1hOHV6dnQyNQ=="">
+                        <i class=" fab fa-instagram"></i>
+                    </a>
+                </li>
+                </li>
+                <li class="footer__social">
+                    <a href="https://www.facebook.com/share/1RYPzERNdT/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+
+                <li class="footer__social">
+                    <a href="https://wa.me/998939295544">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+            </ul>
+            <p class="footer__text">
+                Copyright ©2025 All rights reserved | This template is made with 🤍 by Doston
+            </p>
+        </div>
+    </footer>
+    <!-- /Footer section -->
+</body>
+
+</html>
