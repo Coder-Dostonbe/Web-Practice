@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random number generator</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/png" href="./image/My logo 1.jpg">
+</head>
+
+<body class="body">
+    <div class="main-container">
+        <div class="project-title">
+            <h2 class="project-heading">HTML>CSS>JS</h2>
+            <h1 class="project-name">Random <br> number <br> generator</h1>
+        </div>
+        <div class="main-section">
+            <div class="main-section__elements">
+                <div class="main-section__element">
+                    <div class="min-num">
+                        <label for="min">Min:</label>
+                        <input type="number" class="min-value" name="min-number" id="min"
+                            placeholder="Enter minimum value" min="0" max="100000">
+                    </div>
+                    <div class="max-num">
+                        <label for="max">Max:</label>
+                        <input type="number" class="max-value" name="max-number" id="max"
+                            placeholder="Enter maximum value" min="0" max="100000">
+                    </div>
+                </div>
+                <div class="count-num">
+                    <label for="count">Count:</label>
+                    <input type="number" class="count" name="count" id="count" placeholder="How many numbers?" max="10" min="0">
+                </div>
+            </div>
+            <div class="button">
+                <button class="gen-button" id="generate">Generate</button>
+            </div>
+            <div class="for-palaceholder">
+                <h1 class="placeholder" id="placeholder">
+                    ...
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========Js link========== -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
